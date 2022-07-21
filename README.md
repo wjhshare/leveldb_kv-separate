@@ -49,7 +49,7 @@ record :
       kv_value_size:  uint64        // 指record中第一个kv对开始到该kv对的偏移
 ```
 
-![format](../../../../Desktop/format.png)
+![format](./image/format.png)
 
 #  写流程
 
