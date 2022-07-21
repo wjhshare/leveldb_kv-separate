@@ -1,0 +1,883 @@
+The system is: Linux - 4.15.0-29-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1951c/fast && /usr/bin/make -f CMakeFiles/cmTC_1951c.dir/build.make CMakeFiles/cmTC_1951c.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1951c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1951c.dir/testCCompiler.c.o   -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1951c
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1951c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1951c.dir/testCCompiler.c.o  -o cmTC_1951c 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea7d1/fast && /usr/bin/make -f CMakeFiles/cmTC_ea7d1.dir/build.make CMakeFiles/cmTC_ea7d1.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o   -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMRYN5S.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o /tmp/ccMRYN5S.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ea7d1
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7d1.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o  -o cmTC_ea7d1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea7d1' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTj8vFU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ea7d1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea7d1' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ea7d1/fast && /usr/bin/make -f CMakeFiles/cmTC_ea7d1.dir/build.make CMakeFiles/cmTC_ea7d1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o   -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMRYN5S.s]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o /tmp/ccMRYN5S.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ea7d1]
+  ignore line: [/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7d1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o  -o cmTC_ea7d1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea7d1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTj8vFU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ea7d1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTj8vFU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ea7d1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_ea7d1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a275d/fast && /usr/bin/make -f CMakeFiles/cmTC_a275d.dir/build.make CMakeFiles/cmTC_a275d.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a275d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a275d.dir/testCXXCompiler.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a275d
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a275d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a275d.dir/testCXXCompiler.cxx.o  -o cmTC_a275d 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8466/fast && /usr/bin/make -f CMakeFiles/cmTC_d8466.dir/build.make CMakeFiles/cmTC_d8466.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccM8LQv4.s
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/7
+ /usr/include/x86_64-linux-gnu/c++/7
+ /usr/include/c++/7/backward
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccM8LQv4.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d8466
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8466.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d8466 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8466' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDahvj6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8466 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8466' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/7]
+    add: [/usr/include/x86_64-linux-gnu/c++/7]
+    add: [/usr/include/c++/7/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d8466/fast && /usr/bin/make -f CMakeFiles/cmTC_d8466.dir/build.make CMakeFiles/cmTC_d8466.dir/build]
+  ignore line: [make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccM8LQv4.s]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/7]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+  ignore line: [ /usr/include/c++/7/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccM8LQv4.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d8466]
+  ignore line: [/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8466.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d8466 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8466' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDahvj6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8466 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDahvj6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d8466] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_d8466.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3764d/fast && /usr/bin/make -f CMakeFiles/cmTC_3764d.dir/build.make CMakeFiles/cmTC_3764d.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3764d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3764d.dir/CheckIncludeFile.c.o   -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3764d
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3764d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3764d.dir/CheckIncludeFile.c.o  -o cmTC_3764d 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67589/fast && /usr/bin/make -f CMakeFiles/cmTC_67589.dir/build.make CMakeFiles/cmTC_67589.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_67589.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_67589.dir/CheckSymbolExists.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_67589
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67589.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_67589.dir/CheckSymbolExists.cxx.o  -o cmTC_67589 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+File /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_CLOEXEC exist passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91841/fast && /usr/bin/make -f CMakeFiles/cmTC_91841.dir/build.make CMakeFiles/cmTC_91841.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_91841.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_91841.dir/CheckSymbolExists.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_91841
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91841.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_91841.dir/CheckSymbolExists.cxx.o  -o cmTC_91841 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+File /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_CLOEXEC
+  return ((int*)(&O_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d2d1/fast && /usr/bin/make -f CMakeFiles/cmTC_0d2d1.dir/build.make CMakeFiles/cmTC_0d2d1.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d2d1.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS   -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/cmTC_0d2d1.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0d2d1
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d2d1.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS    CMakeFiles/cmTC_0d2d1.dir/src.cxx.o  -o cmTC_0d2d1 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa60c/fast && /usr/bin/make -f CMakeFiles/cmTC_aa60c.dir/build.make CMakeFiles/cmTC_aa60c.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_aa60c.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_aa60c.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa60c
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa60c.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX17_HAS_INCLUDE    CMakeFiles/cmTC_aa60c.dir/src.cxx.o  -o cmTC_aa60c 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+
+#if defined(__has_include) &&  __has_include(<string>)
+#include <string>
+#endif
+int main() { std::string str; return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07cbc/fast && /usr/bin/make -f CMakeFiles/cmTC_07cbc.dir/build.make CMakeFiles/cmTC_07cbc.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_07cbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wstrict-prototypes    -std=c11 -o CMakeFiles/cmTC_07cbc.dir/CheckIncludeFile.c.o   -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_07cbc
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07cbc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes     CMakeFiles/cmTC_07cbc.dir/CheckIncludeFile.c.o  -o cmTC_07cbc 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2551e/fast && /usr/bin/make -f CMakeFiles/cmTC_2551e.dir/build.make CMakeFiles/cmTC_2551e.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2551e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_2551e.dir/CheckFunctionExists.c.o   -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2551e
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2551e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2551e.dir/CheckFunctionExists.c.o  -o cmTC_2551e -lpthread 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0e77/fast && /usr/bin/make -f CMakeFiles/cmTC_c0e77.dir/build.make CMakeFiles/cmTC_c0e77.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c0e77.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open   -std=c11 -o CMakeFiles/cmTC_c0e77.dir/CheckFunctionExists.c.o   -c /home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0e77
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0e77.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=shm_open    CMakeFiles/cmTC_c0e77.dir/CheckFunctionExists.c.o  -o cmTC_c0e77 -lrt 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10fc2/fast && /usr/bin/make -f CMakeFiles/cmTC_10fc2.dir/build.make CMakeFiles/cmTC_10fc2.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10fc2.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -std=c++11 -o CMakeFiles/cmTC_10fc2.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_10fc2
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10fc2.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    CMakeFiles/cmTC_10fc2.dir/src.cxx.o  -o cmTC_10fc2 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74e47/fast && /usr/bin/make -f CMakeFiles/cmTC_74e47.dir/build.make CMakeFiles/cmTC_74e47.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74e47.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_74e47.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_74e47
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74e47.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_74e47.dir/src.cxx.o  -o cmTC_74e47 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cfcfd/fast && /usr/bin/make -f CMakeFiles/cmTC_cfcfd.dir/build.make CMakeFiles/cmTC_cfcfd.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cfcfd.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_cfcfd.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cfcfd
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfcfd.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_cfcfd.dir/src.cxx.o  -o cmTC_cfcfd 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2778/fast && /usr/bin/make -f CMakeFiles/cmTC_d2778.dir/build.make CMakeFiles/cmTC_d2778.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2778.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_d2778.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d2778
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2778.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_d2778.dir/src.cxx.o  -o cmTC_d2778 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f0da/fast && /usr/bin/make -f CMakeFiles/cmTC_2f0da.dir/build.make CMakeFiles/cmTC_2f0da.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f0da.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_2f0da.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f0da
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f0da.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal    CMakeFiles/cmTC_2f0da.dir/src.cxx.o  -o cmTC_2f0da 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_212ad/fast && /usr/bin/make -f CMakeFiles/cmTC_212ad.dir/build.make CMakeFiles/cmTC_212ad.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_212ad.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_212ad.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_212ad
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_212ad.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_212ad.dir/src.cxx.o  -o cmTC_212ad 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9693/fast && /usr/bin/make -f CMakeFiles/cmTC_f9693.dir/build.make CMakeFiles/cmTC_f9693.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9693.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_f9693.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9693
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9693.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wsuggest-override    CMakeFiles/cmTC_f9693.dir/src.cxx.o  -o cmTC_f9693 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d61b7/fast && /usr/bin/make -f CMakeFiles/cmTC_d61b7.dir/build.make CMakeFiles/cmTC_d61b7.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d61b7.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_d61b7.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d61b7
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d61b7.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override -DHAVE_CXX_FLAG_PEDANTIC  -pedantic    CMakeFiles/cmTC_d61b7.dir/src.cxx.o  -o cmTC_d61b7 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa1be/fast && /usr/bin/make -f CMakeFiles/cmTC_aa1be.dir/build.make CMakeFiles/cmTC_aa1be.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa1be.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_aa1be.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa1be
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa1be.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors    CMakeFiles/cmTC_aa1be.dir/src.cxx.o  -o cmTC_aa1be 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26ae1/fast && /usr/bin/make -f CMakeFiles/cmTC_26ae1.dir/build.make CMakeFiles/cmTC_26ae1.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26ae1.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_26ae1.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26ae1
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26ae1.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_26ae1.dir/src.cxx.o  -o cmTC_26ae1 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32310/fast && /usr/bin/make -f CMakeFiles/cmTC_32310.dir/build.make CMakeFiles/cmTC_32310.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32310.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_32310.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32310
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32310.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_32310.dir/src.cxx.o  -o cmTC_32310 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc4c5/fast && /usr/bin/make -f CMakeFiles/cmTC_cc4c5.dir/build.make CMakeFiles/cmTC_cc4c5.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc4c5.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_cc4c5.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc4c5
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc4c5.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_cc4c5.dir/src.cxx.o  -o cmTC_cc4c5 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bad6/fast && /usr/bin/make -f CMakeFiles/cmTC_1bad6.dir/build.make CMakeFiles/cmTC_1bad6.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1bad6.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -std=c++11 -o CMakeFiles/cmTC_1bad6.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1bad6
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bad6.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions    CMakeFiles/cmTC_1bad6.dir/src.cxx.o  -o cmTC_1bad6 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55775/fast && /usr/bin/make -f CMakeFiles/cmTC_55775.dir/build.make CMakeFiles/cmTC_55775.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55775.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_55775.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_55775
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55775.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_55775.dir/src.cxx.o  -o cmTC_55775 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16858/fast && /usr/bin/make -f CMakeFiles/cmTC_16858.dir/build.make CMakeFiles/cmTC_16858.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16858.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_16858.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16858
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16858.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_16858.dir/src.cxx.o  -o cmTC_16858 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74f14/fast && /usr/bin/make -f CMakeFiles/cmTC_74f14.dir/build.make CMakeFiles/cmTC_74f14.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74f14.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -std=c++11 -o CMakeFiles/cmTC_74f14.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_74f14
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74f14.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_74f14.dir/src.cxx.o  -o cmTC_74f14 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac8b0/fast && /usr/bin/make -f CMakeFiles/cmTC_ac8b0.dir/build.make CMakeFiles/cmTC_ac8b0.dir/build
+make[1]: Entering directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac8b0.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -std=c++11 -o CMakeFiles/cmTC_ac8b0.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac8b0
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac8b0.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_ac8b0.dir/src.cxx.o  -o cmTC_ac8b0 
+make[1]: Leaving directory '/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3104e/fast && /usr/bin/make -f CMakeFiles/cmTC_3104e.dir/build.make CMakeFiles/cmTC_3104e.dir/build
+make[1]: 进入目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3104e.dir/src.cxx.o
+/usr/bin/c++    -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_DEPRECATED_ATTR   -std=c++11 -o CMakeFiles/cmTC_3104e.dir/src.cxx.o -c /home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3104e
+/home/building/CLion-2019.3/clion-2019.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3104e.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_3104e.dir/src.cxx.o  -o cmTC_3104e 
+make[1]: 离开目录“/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\benchmark\;CMake Files\third_party\benchmark\cmake\;CMake Files\third_party\benchmark\src\;CMake Files\third_party\googletest\;CMake Files\third_party\googletest\googlemock\;CMake Files\third_party\googletest\googlemock\cmake\;CMake Files\third_party\googletest\googletest\;CMake Files\third_party\googletest\googletest\cmake\;CMake Files\port\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/."/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/."/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/."/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/."/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/include"/>
+					<Add directory="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake-build-debug/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\benchmark\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/CXXFeatureCheck.cmake">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/GetGitVersion.cmake">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/gnu_posix_regex.cpp">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/posix_regex.cpp">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/std_regex.cpp">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/cmake/steady_clock.cpp">
+			<Option virtualFolder="CMake Files\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/benchmark/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\benchmark\src\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\googletest\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\third_party\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\third_party\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/third_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/port/port_config.h.in">
+			<Option virtualFolder="CMake Files\port\"/>
+		</Unit>
+		<Unit filename="/home/building/kv/leveldb-1.23-second-final-separate-log/leveldb-1.23-second/cmake/leveldbConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
